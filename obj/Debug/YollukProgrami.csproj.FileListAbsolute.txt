@@ -1,0 +1,11 @@
+D:\cProjeler\Programlar\YollukProgrami\bin\Debug\YollukProgrami.exe.config
+D:\cProjeler\Programlar\YollukProgrami\bin\Debug\YollukProgrami.exe
+D:\cProjeler\Programlar\YollukProgrami\bin\Debug\YollukProgrami.pdb
+D:\cProjeler\Programlar\YollukProgrami\bin\Debug\MetroFramework.dll
+D:\cProjeler\Programlar\YollukProgrami\bin\Debug\MetroFramework.Fonts.dll
+D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.csprojResolveAssemblyReference.cache
+D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.Properties.Resources.resources
+D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.csproj.GenerateResource.Cache
+D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.exe
+D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.pdb
+D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.AnaForm.resources
