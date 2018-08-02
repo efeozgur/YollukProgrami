@@ -39,6 +39,8 @@
             this.btnHesapla = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnEkle = new MetroFramework.Controls.MetroButton();
+            this.btnYazdir = new System.Windows.Forms.Button();
+            this.btnYeniHesap = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gosterge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +65,7 @@
             // 
             // gosterge
             // 
+            this.gosterge.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.gosterge.Location = new System.Drawing.Point(157, 90);
             this.gosterge.Maximum = new decimal(new int[] {
             5,
@@ -141,24 +144,46 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(293, 40);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(609, 237);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(676, 237);
             this.dataGridView1.TabIndex = 9;
             // 
             // btnEkle
             // 
             this.btnEkle.Location = new System.Drawing.Point(201, 206);
             this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(75, 23);
             this.btnEkle.TabIndex = 10;
             this.btnEkle.Text = ">";
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
+            // 
+            // btnYazdir
+            // 
+            this.btnYazdir.Location = new System.Drawing.Point(910, 259);
+            this.btnYazdir.Name = "btnYazdir";
+            this.btnYazdir.Size = new System.Drawing.Size(59, 29);
+            this.btnYazdir.TabIndex = 11;
+            this.btnYazdir.Text = "Yazdır";
+            this.btnYazdir.UseVisualStyleBackColor = true;
+            this.btnYazdir.Click += new System.EventHandler(this.btnYazdir_Click);
+            // 
+            // btnYeniHesap
+            // 
+            this.btnYeniHesap.Location = new System.Drawing.Point(13, 198);
+            this.btnYeniHesap.Name = "btnYeniHesap";
+            this.btnYeniHesap.Size = new System.Drawing.Size(75, 23);
+            this.btnYeniHesap.TabIndex = 12;
+            this.btnYeniHesap.Text = "Yeni Hesap";
+            this.btnYeniHesap.UseVisualStyleBackColor = true;
+            this.btnYeniHesap.Click += new System.EventHandler(this.btnYeniHesap_Click);
             // 
             // AnaForm
             // 
             this.AcceptButton = this.btnHesapla;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 300);
+            this.ClientSize = new System.Drawing.Size(982, 300);
+            this.Controls.Add(this.btnYeniHesap);
+            this.Controls.Add(this.btnYazdir);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnHesapla);
@@ -173,6 +198,7 @@
             this.Name = "AnaForm";
             this.ShadowType = MetroFramework.Forms.MetroForm.MetroFormShadowType.DropShadow;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AnaForm_FormClosing);
             this.Load += new System.EventHandler(this.AnaForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gosterge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -194,6 +220,8 @@
         private System.Windows.Forms.Button btnHesapla;
         private System.Windows.Forms.DataGridView dataGridView1;
         private MetroFramework.Controls.MetroButton btnEkle;
+        private System.Windows.Forms.Button btnYazdir;
+        private System.Windows.Forms.Button btnYeniHesap;
     }
 }
 

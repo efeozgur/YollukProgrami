@@ -9,3 +9,15 @@ D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.csproj.GenerateR
 D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.exe
 D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.pdb
 D:\cProjeler\Programlar\YollukProgrami\obj\Debug\YollukProgrami.AnaForm.resources
+D:\JavaProjeleri\YollukProgrami\bin\Debug\YollukProgrami.exe.config
+D:\JavaProjeleri\YollukProgrami\obj\Debug\YollukProgrami.exe
+D:\JavaProjeleri\YollukProgrami\obj\Debug\YollukProgrami.pdb
+D:\JavaProjeleri\YollukProgrami\bin\Debug\YollukProgrami.exe
+D:\JavaProjeleri\YollukProgrami\bin\Debug\YollukProgrami.pdb
+D:\JavaProjeleri\YollukProgrami\obj\Debug\YollukProgrami.csprojResolveAssemblyReference.cache
+D:\JavaProjeleri\YollukProgrami\obj\Debug\YollukProgrami.AnaForm.resources
+D:\JavaProjeleri\YollukProgrami\obj\Debug\YollukProgrami.Properties.Resources.resources
+D:\JavaProjeleri\YollukProgrami\obj\Debug\YollukProgrami.csproj.GenerateResource.Cache
+D:\JavaProjeleri\YollukProgrami\obj\Debug\YollukProgrami.Yazdirfrm.resources
+D:\JavaProjeleri\YollukProgrami\obj\Debug\RdlCompile.cache
+D:\JavaProjeleri\YollukProgrami\obj\Debug\RdlCompile.compiled
